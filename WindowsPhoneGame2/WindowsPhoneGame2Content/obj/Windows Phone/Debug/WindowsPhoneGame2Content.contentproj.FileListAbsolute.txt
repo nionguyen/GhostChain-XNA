@@ -1,0 +1,2 @@
+C:\Users\tieunun\documents\visual studio 2012\Projects\WindowsPhoneGame2\WindowsPhoneGame2\WindowsPhoneGame2Content\obj\Windows Phone\Debug\WindowsPhoneGame2Content.contentprojResolveAssemblyReference.cache
+C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2Content\obj\Windows Phone\Debug\WindowsPhoneGame2Content.contentprojResolveAssemblyReference.cache

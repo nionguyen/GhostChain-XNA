@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Sounds\bgSong.mp3</Source>
+      <Name>Sounds\bgSong</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\bgSong.xnb</Output>
+      <Extra>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\bgSong.wma</Extra>
+      <Time>2013-11-12T01:10:29.9466308-08:00</Time>
+    </Item>
+    <Item>
+      <Source>BG_About.png</Source>
+      <Name>BG_About</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\BG_About.xnb</Output>
+      <Time>2013-11-10T00:39:47-08:00</Time>
+    </Item>
+    <Item>
+      <Source>BG_Game.png</Source>
+      <Name>BG_Game</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\BG_Game.xnb</Output>
+      <Time>2013-11-27T06:16:44-08:00</Time>
+    </Item>
+    <Item>
+      <Source>BG_Menu.png</Source>
+      <Name>BG_Menu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\BG_Menu.xnb</Output>
+      <Time>2013-11-10T07:22:03-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Explosion.png</Source>
+      <Name>Cell\Explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Explosion.xnb</Output>
+      <Time>2013-11-10T07:28:40-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type01_Action.png</Source>
+      <Name>Cell\Type01_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type01_Action.xnb</Output>
+      <Time>2013-11-10T07:28:40-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type01_NoTouch.png</Source>
+      <Name>Cell\Type01_NoTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type01_NoTouch.xnb</Output>
+      <Time>2013-11-11T04:12:37-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type01_Touching.png</Source>
+      <Name>Cell\Type01_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type01_Touching.xnb</Output>
+      <Time>2013-11-10T07:28:40-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type02_Action.png</Source>
+      <Name>Cell\Type02_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type02_Action.xnb</Output>
+      <Time>2013-11-10T07:28:40-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type02_NoTouch.png</Source>
+      <Name>Cell\Type02_NoTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type02_NoTouch.xnb</Output>
+      <Time>2013-11-11T04:14:40-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type02_Touching.png</Source>
+      <Name>Cell\Type02_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type02_Touching.xnb</Output>
+      <Time>2013-11-10T07:28:40-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type03_Action.png</Source>
+      <Name>Cell\Type03_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type03_Action.xnb</Output>
+      <Time>2013-11-10T07:28:40-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type03_NoTouch.png</Source>
+      <Name>Cell\Type03_NoTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type03_NoTouch.xnb</Output>
+      <Time>2013-11-11T04:14:22-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type03_Touching.png</Source>
+      <Name>Cell\Type03_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type03_Touching.xnb</Output>
+      <Time>2013-11-10T07:28:40-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type04_Action.png</Source>
+      <Name>Cell\Type04_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type04_Action.xnb</Output>
+      <Time>2013-11-10T07:28:41-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type04_NoTouch.png</Source>
+      <Name>Cell\Type04_NoTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type04_NoTouch.xnb</Output>
+      <Time>2013-11-11T04:14:02-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type04_Touching.png</Source>
+      <Name>Cell\Type04_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type04_Touching.xnb</Output>
+      <Time>2013-11-10T07:28:41-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type05_Action.png</Source>
+      <Name>Cell\Type05_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type05_Action.xnb</Output>
+      <Time>2013-11-10T07:28:41-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type05_NoTouch.png</Source>
+      <Name>Cell\Type05_NoTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type05_NoTouch.xnb</Output>
+      <Time>2013-11-10T07:28:41-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type05_Touching.png</Source>
+      <Name>Cell\Type05_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type05_Touching.xnb</Output>
+      <Time>2013-11-10T07:28:41-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type06_Action.png</Source>
+      <Name>Cell\Type06_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type06_Action.xnb</Output>
+      <Time>2013-11-10T07:28:41-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type06_NoTouch.png</Source>
+      <Name>Cell\Type06_NoTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type06_NoTouch.xnb</Output>
+      <Time>2013-11-11T04:13:47-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type06_Touching.png</Source>
+      <Name>Cell\Type06_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type06_Touching.xnb</Output>
+      <Time>2013-11-10T07:28:42-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type07_Action.png</Source>
+      <Name>Cell\Type07_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type07_Action.xnb</Output>
+      <Time>2013-11-10T07:28:42-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type07_Notouch.png</Source>
+      <Name>Cell\Type07_Notouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type07_Notouch.xnb</Output>
+      <Time>2013-11-11T04:13:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type07_Touching.png</Source>
+      <Name>Cell\Type07_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type07_Touching.xnb</Output>
+      <Time>2013-11-10T07:28:42-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type08_Action.png</Source>
+      <Name>Cell\Type08_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type08_Action.xnb</Output>
+      <Time>2013-11-10T07:28:42-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type08_NoTouch.png</Source>
+      <Name>Cell\Type08_NoTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type08_NoTouch.xnb</Output>
+      <Time>2013-11-10T07:28:42-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type08_Touching.png</Source>
+      <Name>Cell\Type08_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Cell\Type08_Touching.xnb</Output>
+      <Time>2013-11-10T07:28:39-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Blank_Game.png</Source>
+      <Name>Blank_Game</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Blank_Game.xnb</Output>
+      <Time>2013-11-10T07:22:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>PausePopup.png</Source>
+      <Name>PausePopup</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\PausePopup.xnb</Output>
+      <Time>2013-11-10T07:22:05-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Music_Off.png</Source>
+      <Name>Music_Off</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Music_Off.xnb</Output>
+      <Time>2013-11-10T07:22:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>BG_Mode.png</Source>
+      <Name>BG_Mode</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\BG_Mode.xnb</Output>
+      <Time>2013-11-10T07:22:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>BG_Level.png</Source>
+      <Name>BG_Level</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\BG_Level.xnb</Output>
+      <Time>2013-11-10T07:22:00-08:00</Time>
+    </Item>
+    <Item>
+      <Source>BG_Level_Select.png</Source>
+      <Name>BG_Level_Select</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\BG_Level_Select.xnb</Output>
+      <Time>2013-11-10T07:22:02-08:00</Time>
+    </Item>
+    <Item>
+      <Source>BG_Level_Mode_Done.png</Source>
+      <Name>BG_Level_Mode_Done</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\BG_Level_Mode_Done.xnb</Output>
+      <Time>2013-11-27T04:44:26-08:00</Time>
+    </Item>
+    <Item>
+      <Source>BG_Classic_Mode_Done.png</Source>
+      <Name>BG_Classic_Mode_Done</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\BG_Classic_Mode_Done.xnb</Output>
+      <Time>2013-11-27T04:49:36-08:00</Time>
+    </Item>
+    <Item>
+      <Source>BG_How_To_Play.png</Source>
+      <Name>BG_How_To_Play</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\BG_How_To_Play.xnb</Output>
+      <Time>2013-11-26T23:54:18-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Current_Level_Grid.png</Source>
+      <Name>Current_Level_Grid</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Current_Level_Grid.xnb</Output>
+      <Time>2013-11-10T07:22:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Locked.png</Source>
+      <Name>Level_Locked</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Level_Locked.xnb</Output>
+      <Time>2013-11-10T07:22:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Complete.png</Source>
+      <Name>Complete</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Complete.xnb</Output>
+      <Time>2013-11-11T21:06:45.9244501-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Star.png</Source>
+      <Name>Star</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Star.xnb</Output>
+      <Time>2013-11-11T21:15:12.0004078-08:00</Time>
+    </Item>
+    <Item>
+      <Source>High_Score.png</Source>
+      <Name>High_Score</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\High_Score.xnb</Output>
+      <Time>2013-11-27T05:53:02-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Touch_Type\sfx_Type1.wav</Source>
+      <Name>Sounds\Touch_Type\sfx_Type1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Touch_Type\sfx_Type1.xnb</Output>
+      <Time>2013-11-11T10:20:22-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Touch_Type\sfx_Type2.wav</Source>
+      <Name>Sounds\Touch_Type\sfx_Type2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Touch_Type\sfx_Type2.xnb</Output>
+      <Time>2013-11-11T10:20:11-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Touch_Type\sfx_Type3.wav</Source>
+      <Name>Sounds\Touch_Type\sfx_Type3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Touch_Type\sfx_Type3.xnb</Output>
+      <Time>2013-11-11T10:20:01-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Touch_Type\sfx_Type4.wav</Source>
+      <Name>Sounds\Touch_Type\sfx_Type4</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Touch_Type\sfx_Type4.xnb</Output>
+      <Time>2013-11-11T10:19:49-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Touch_Type\sfx_Type5.wav</Source>
+      <Name>Sounds\Touch_Type\sfx_Type5</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Touch_Type\sfx_Type5.xnb</Output>
+      <Time>2013-11-11T10:19:39-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Touch_Type\sfx_Type6.wav</Source>
+      <Name>Sounds\Touch_Type\sfx_Type6</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Touch_Type\sfx_Type6.xnb</Output>
+      <Time>2013-11-11T10:19:17-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Touch_Type\sfx_Type7.wav</Source>
+      <Name>Sounds\Touch_Type\sfx_Type7</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Touch_Type\sfx_Type7.xnb</Output>
+      <Time>2013-11-11T10:19:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Touch_Type\sfx_Type8.wav</Source>
+      <Name>Sounds\Touch_Type\sfx_Type8</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Touch_Type\sfx_Type8.xnb</Output>
+      <Time>2013-11-11T10:18:55-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Effects\sfx_button.wav</Source>
+      <Name>Sounds\Effects\sfx_button</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Effects\sfx_button.xnb</Output>
+      <Time>2013-11-11T10:16:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Effects\sfx_gameover.wav</Source>
+      <Name>Sounds\Effects\sfx_gameover</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Effects\sfx_gameover.xnb</Output>
+      <Time>2013-11-11T10:16:22-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Effects\sfx_goalcomplete.wav</Source>
+      <Name>Sounds\Effects\sfx_goalcomplete</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Effects\sfx_goalcomplete.xnb</Output>
+      <Time>2013-11-11T10:16:31-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Effects\sfx_join1.wav</Source>
+      <Name>Sounds\Effects\sfx_join1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Effects\sfx_join1.xnb</Output>
+      <Time>2013-11-11T10:16:40-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Effects\sfx_join2.wav</Source>
+      <Name>Sounds\Effects\sfx_join2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Effects\sfx_join2.xnb</Output>
+      <Time>2013-11-11T10:16:49-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Effects\sfx_joker2.wav</Source>
+      <Name>Sounds\Effects\sfx_joker2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Effects\sfx_joker2.xnb</Output>
+      <Time>2013-11-11T10:16:56-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Effects\sfx_levelcomplete.wav</Source>
+      <Name>Sounds\Effects\sfx_levelcomplete</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Effects\sfx_levelcomplete.xnb</Output>
+      <Time>2013-11-11T10:17:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Effects\sfx_levelup.wav</Source>
+      <Name>Sounds\Effects\sfx_levelup</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Effects\sfx_levelup.xnb</Output>
+      <Time>2013-11-11T10:17:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Effects\sfx_timeup.wav</Source>
+      <Name>Sounds\Effects\sfx_timeup</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Sounds\Effects\sfx_timeup.xnb</Output>
+      <Time>2013-11-11T10:14:34-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Font\GameFont.spritefont</Source>
+      <Name>Font\GameFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\Font\GameFont.xnb</Output>
+      <Time>2013-11-10T17:37:35.1154877-08:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{F491042D-EDA3-4C1C-92EB-FA2418DE8ACD}</ContentProjectGUID>
+      <TargetPlatform>WindowsPhone</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\obj\Windows Phone\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-11-02T00:18:06.6492915-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

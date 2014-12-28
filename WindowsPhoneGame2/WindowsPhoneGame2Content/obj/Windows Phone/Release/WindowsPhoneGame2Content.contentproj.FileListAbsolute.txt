@@ -1,0 +1,3 @@
+C:\Users\tieunun\Documents\Visual Studio 2012\Projects\WindowsPhoneGame2\WindowsPhoneGame2\WindowsPhoneGame2Content\obj\Windows Phone\Release\WindowsPhoneGame2Content.contentprojResolveAssemblyReference.cache
+C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2Content\obj\Windows Phone\Release\WindowsPhoneGame2Content.contentprojResolveAssemblyReference.cache
+C:\Users\tieunun\Desktop\WP\Ghost Chain\Ghost Chain\WindowsPhoneGame2\WindowsPhoneGame2Content\obj\Windows Phone\Release\WindowsPhoneGame2Content.contentprojResolveAssemblyReference.cache

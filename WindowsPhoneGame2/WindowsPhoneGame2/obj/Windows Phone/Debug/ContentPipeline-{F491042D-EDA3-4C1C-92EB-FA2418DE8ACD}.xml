@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2013-11-05T09:06:37.5589929-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\bgSong.mp3</Source>
+      <Name>Sounds\bgSong</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Sounds\bgSong.xnb</Output>
+      <Extra>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Sounds\bgSong.wma</Extra>
+      <Time>2013-11-03T19:46:12.8433336-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\lose.wav</Source>
+      <Name>Sounds\lose</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Sounds\lose.xnb</Output>
+      <Time>2013-11-03T13:24:23.3839716-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\selectButton.wav</Source>
+      <Name>Sounds\selectButton</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Sounds\selectButton.xnb</Output>
+      <Time>2013-11-03T13:24:23.388971-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\success.wav</Source>
+      <Name>Sounds\success</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Sounds\success.xnb</Output>
+      <Time>2013-11-03T13:24:23.4229752-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\win.wav</Source>
+      <Name>Sounds\win</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Sounds\win.xnb</Output>
+      <Time>2013-11-03T13:24:23.4299772-08:00</Time>
+    </Item>
+    <Item>
+      <Source>BG_About.png</Source>
+      <Name>BG_About</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\BG_About.xnb</Output>
+      <Time>2013-11-05T02:38:16.2465478-08:00</Time>
+    </Item>
+    <Item>
+      <Source>BG_Game.png</Source>
+      <Name>BG_Game</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\BG_Game.xnb</Output>
+      <Time>2013-11-05T03:25:05.0125274-08:00</Time>
+    </Item>
+    <Item>
+      <Source>BG_Menu.png</Source>
+      <Name>BG_Menu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\BG_Menu.xnb</Output>
+      <Time>2013-11-05T02:38:14.243291-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Type_01.png</Source>
+      <Name>Type_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Type_01.xnb</Output>
+      <Time>2013-11-04T20:13:44-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Type_02.png</Source>
+      <Name>Type_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Type_02.xnb</Output>
+      <Time>2013-11-04T20:14:11-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Type_03.png</Source>
+      <Name>Type_03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Type_03.xnb</Output>
+      <Time>2013-11-04T20:49:23-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Type_04.png</Source>
+      <Name>Type_04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Type_04.xnb</Output>
+      <Time>2013-11-04T20:49:41-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Type_05.png</Source>
+      <Name>Type_05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Type_05.xnb</Output>
+      <Time>2013-11-04T20:49:55-08:00</Time>
+    </Item>
+    <Item>
+      <Source>isTouch.png</Source>
+      <Name>isTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\isTouch.xnb</Output>
+      <Time>2013-11-05T03:28:28.3636599-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Explosion.png</Source>
+      <Name>Explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Explosion.xnb</Output>
+      <Time>2013-11-05T12:18:38.7352589-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Type_06.png</Source>
+      <Name>Type_06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Type_06.xnb</Output>
+      <Time>2013-11-05T20:38:06.2051955-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Type05_NoTouch.png</Source>
+      <Name>Type05_NoTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Type05_NoTouch.xnb</Output>
+      <Time>2013-11-05T22:16:10.5604464-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Type05_Touching.png</Source>
+      <Name>Type05_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Type05_Touching.xnb</Output>
+      <Time>2013-11-05T22:16:10.5634449-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Explosion.png</Source>
+      <Name>Cell\Explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Explosion.xnb</Output>
+      <Time>2013-11-06T00:36:09.0838312-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type01_NoTouch.png</Source>
+      <Name>Cell\Type01_NoTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type01_NoTouch.xnb</Output>
+      <Time>2013-11-05T22:42:06.4814131-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type01_Touching.png</Source>
+      <Name>Cell\Type01_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type01_Touching.xnb</Output>
+      <Time>2013-11-05T22:42:06.4854098-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type02_NoTouch.png</Source>
+      <Name>Cell\Type02_NoTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type02_NoTouch.xnb</Output>
+      <Time>2013-11-05T22:42:06.4944146-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type02_Touching.png</Source>
+      <Name>Cell\Type02_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type02_Touching.xnb</Output>
+      <Time>2013-11-05T22:42:06.49841-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type03_NoTouch.png</Source>
+      <Name>Cell\Type03_NoTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type03_NoTouch.xnb</Output>
+      <Time>2013-11-05T22:42:06.5074143-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type03_Touching.png</Source>
+      <Name>Cell\Type03_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type03_Touching.xnb</Output>
+      <Time>2013-11-05T22:42:06.5114128-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type04_NoTouch.png</Source>
+      <Name>Cell\Type04_NoTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type04_NoTouch.xnb</Output>
+      <Time>2013-11-05T22:42:06.5204141-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type04_Touching.png</Source>
+      <Name>Cell\Type04_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type04_Touching.xnb</Output>
+      <Time>2013-11-05T22:42:06.5244134-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type05_NoTouch.png</Source>
+      <Name>Cell\Type05_NoTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type05_NoTouch.xnb</Output>
+      <Time>2013-11-05T22:42:06.5334164-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type05_Touching.png</Source>
+      <Name>Cell\Type05_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type05_Touching.xnb</Output>
+      <Time>2013-11-05T22:42:06.5384205-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type01_Action.png</Source>
+      <Name>Cell\Type01_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type01_Action.xnb</Output>
+      <Time>2013-11-05T22:42:06.4774086-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type02_Action.png</Source>
+      <Name>Cell\Type02_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type02_Action.xnb</Output>
+      <Time>2013-11-05T22:42:06.4904101-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type03_Action.png</Source>
+      <Name>Cell\Type03_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type03_Action.xnb</Output>
+      <Time>2013-11-05T22:42:06.503415-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type04_Action.png</Source>
+      <Name>Cell\Type04_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type04_Action.xnb</Output>
+      <Time>2013-11-05T22:42:06.5164139-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type05_Action.png</Source>
+      <Name>Cell\Type05_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type05_Action.xnb</Output>
+      <Time>2013-11-05T22:42:06.5294145-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type06_Action.png</Source>
+      <Name>Cell\Type06_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type06_Action.xnb</Output>
+      <Time>2013-11-05T22:42:06.5424173-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type06_NoTouch.png</Source>
+      <Name>Cell\Type06_NoTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type06_NoTouch.xnb</Output>
+      <Time>2013-11-05T22:42:06.5474175-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type06_Touching.png</Source>
+      <Name>Cell\Type06_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type06_Touching.xnb</Output>
+      <Time>2013-11-05T22:42:06.467406-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type07_Action.png</Source>
+      <Name>Cell\Type07_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type07_Action.xnb</Output>
+      <Time>2013-11-06T21:01:28.4909078-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type07_Notouch.png</Source>
+      <Name>Cell\Type07_Notouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type07_Notouch.xnb</Output>
+      <Time>2013-11-06T21:01:28.4939071-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type07_Touching.png</Source>
+      <Name>Cell\Type07_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type07_Touching.xnb</Output>
+      <Time>2013-11-06T21:01:28.4769075-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type08_Action.png</Source>
+      <Name>Cell\Type08_Action</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type08_Action.xnb</Output>
+      <Time>2013-11-06T21:01:28.4809047-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type08_NoTouch.png</Source>
+      <Name>Cell\Type08_NoTouch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type08_NoTouch.xnb</Output>
+      <Time>2013-11-06T21:01:28.483904-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Cell\Type08_Touching.png</Source>
+      <Name>Cell\Type08_Touching</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\Cell\Type08_Touching.xnb</Output>
+      <Time>2013-11-06T21:01:28.4879046-08:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{F491042D-EDA3-4C1C-92EB-FA2418DE8ACD}</ContentProjectGUID>
+      <TargetPlatform>WindowsPhone</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\obj\Windows Phone\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\tieunun\Desktop\WP\Minion\WindowsPhoneGame2\WindowsPhoneGame2\bin\Windows Phone\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2012-09-06T14:52:54-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-11-02T00:18:06.6492915-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
